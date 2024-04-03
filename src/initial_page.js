@@ -1,4 +1,5 @@
 import img from './img/breakfast_background.jpg'
+import LoadMenuPage from './menu';
 
 export default function LoadHomePage() {
     const body = document.querySelector('body');
@@ -22,6 +23,7 @@ export default function LoadHomePage() {
     const button = document.createElement('button');
     button.textContent = 'Menu';
     textDiv.appendChild(button);
+    button.addEventListener('click', LoadMenuPage);
 
     content.appendChild(textDiv);
 }

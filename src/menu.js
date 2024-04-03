@@ -8,7 +8,7 @@ export default function LoadMenuPage() {
     main.style.backgroundImage = 'none';
 
     const menuTitle = document.createElement('div');
-    menuTitle.className = 'menu-title';
+    menuTitle.className = 'title';
     menuTitle.textContent = 'Menu';
     content.appendChild(menuTitle);
 

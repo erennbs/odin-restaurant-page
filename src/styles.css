@@ -40,7 +40,7 @@ nav button {
     font-size: 20px;
 }
 
-.title {
+.brand-name {
     color: white;
     font-weight: bold;
     font-size: 30px;
@@ -86,7 +86,7 @@ nav button {
     border-radius: 20px;
 }
 
-.menu-title {
+.title {
     font-weight: bold;
     font-size: 32px;
     margin: 40px;
@@ -124,4 +124,12 @@ hr {
     background-color: var(--main-color);
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+.about-text {
+    font-size: 20px;
+    color: rgb(.47, 0.47, 0.47);
+
+    width: 70%;
+    height: 100%;
 }
