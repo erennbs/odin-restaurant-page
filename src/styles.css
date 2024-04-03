@@ -1,0 +1,127 @@
+:root {
+    /* --main-color: rgba(110, 105, 60, 0.98); */
+    --main-color: rgba(114, 120, 40, 0.98);
+}
+
+body {
+    background-image: url(./img/breakfast_background.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: var(--main-color);
+    margin: 0;
+    padding: 0 200px 0 200px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav button {
+    width: 100px;
+    height: 30px;
+    
+    background-color: transparent;
+    color: white;
+
+    border: 0;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    /* justify-content: center; */
+    height: calc(100% - 70px);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    height: 400px;
+    width: 500px;
+}
+
+.text button {
+    background-color: var(--main-color);
+ 
+    width: 120px;
+    height: 40px;
+ 
+    margin-top: 20px;
+ 
+    color: white;
+ 
+    font-size: 16px;
+    font-weight: bold;
+
+    border: 0;
+    border-radius: 20px;
+}
+
+.menu-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 40px;
+    /* color: rgb(47, 47, 47); */
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+
+.menu-holder {
+    width: 70%;
+    height: 100%;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.food-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    color: var(--main-color);
+}
+
+.food-description {
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+}
+
+hr {
+    background-color: var(--main-color);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
