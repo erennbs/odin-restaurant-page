@@ -4,5 +4,5 @@ This is a [project](https://www.theodinproject.com/lessons/node-path-javascript-
 
 We're wanted to create a restaurant webpage where contents are created in javascript file.
 
-![screenshot](./image/home.png)
-![screenshot](./image/menu.png)
+![screenshot](./images/home.png)
+![screenshot](./images/menu.png)
