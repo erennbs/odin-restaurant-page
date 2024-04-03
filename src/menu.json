@@ -1,0 +1,14 @@
+{
+    "Pancakes": {
+        "description": "American-style, fluffy pancakes are great for feeding a crowd at breakfast or brunch. Top with something sweet like fruit, jam or syrup, or rashers of crispy bacon.",
+        "price": "4.99"
+    },
+    "Pancake Breakfast Tacos": {
+        "description": "Enjoy a leisurely weekend bunch with these taco-inspired pancakes filled with bacon, cheese and scrambled eggs",
+        "price": "7.99"
+    },
+    "Potato fritters": {
+        "description": "Similar to potato rösti and hash browns, these fritters make an excellent base for your favourite toppings at brunch or breakfast. We've opted for fried eggs and avocado",
+        "price": "6.99'"
+    }
+}
